@@ -1,49 +1,49 @@
 {
   "name": "grunt-responsive-videos",
-  "description": "Generate multiple video encodes at varying sizes for responsive, HTML5 video applications",
   "version": "0.1.3",
+  "description": "Generate multiple video encodes at varying sizes for responsive, HTML5 video applications",
+  "keywords": [
+    "ffmpeg",
+    "gruntplugin",
+    "responsive",
+    "video"
+  ],
   "homepage": "https://github.com/sjwilliams/grunt-responsive-videos",
+  "bugs": {
+    "url": "https://github.com/sjwilliams/grunt-responsive-videos/issues"
+  },
   "author": {
     "name": "Josh Williams",
     "email": "josh@joshwilliams.com",
     "url": "http://joshwilliams.com"
   },
+  "main": "Gruntfile.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/sjwilliams/grunt-responsive-videos"
   },
-  "bugs": {
-    "url": "https://github.com/sjwilliams/grunt-responsive-videos/issues"
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "ffmpeg-node": "https://github.com/DylanVann/ffmpeg-node.git",
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "underscore": "~1.5.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
   },
   "licenses": [
     {
       "type": "MIT",
       "url": "https://github.com/sjwilliams/grunt-responsive-videos/blob/master/LICENSE-MIT"
     }
-  ],
-  "main": "Gruntfile.js",
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "dependencies": {
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-clean": "~0.4.0",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt": "~0.4.1",
-    "underscore": "~1.5.2",
-    "async": "~0.2.9",
-    "ffmpeg-node": "~0.0.2"
-  },
-  "peerDependencies": {
-    "grunt": "~0.4.1"
-  },
-  "keywords": [
-    "gruntplugin",
-    "ffmpeg",
-    "video",
-    "responsive"
   ]
 }
